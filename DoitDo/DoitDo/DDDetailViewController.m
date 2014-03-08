@@ -10,7 +10,10 @@
 
 @interface DDDetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
+@property (weak, nonatomic) IBOutlet UITextField *toDOTitleField;
+
 - (void)configureView;
+
 @end
 
 @implementation DDDetailViewController

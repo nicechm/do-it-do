@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B254B7218CB11E000CACA38 /* DDDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B254B7118CB11E000CACA38 /* DDDo.m */; };
 		2B2BD2D418CAEC92006D75D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2BD2D318CAEC92006D75D2 /* Foundation.framework */; };
 		2B2BD2D618CAEC92006D75D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2BD2D518CAEC92006D75D2 /* CoreGraphics.framework */; };
 		2B2BD2D818CAEC92006D75D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2BD2D718CAEC92006D75D2 /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B254B7018CB11E000CACA38 /* DDDo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDo.h; sourceTree = "<group>"; };
+		2B254B7118CB11E000CACA38 /* DDDo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDo.m; sourceTree = "<group>"; };
 		2B2BD2D018CAEC92006D75D2 /* DoitDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoitDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2BD2D318CAEC92006D75D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2B2BD2D518CAEC92006D75D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,6 +94,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B254B6E18CB119B00CACA38 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2B254B6F18CB119B00CACA38 /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2B254B6F18CB119B00CACA38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B254B7018CB11E000CACA38 /* DDDo.h */,
+				2B254B7118CB11E000CACA38 /* DDDo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2B2BD2C718CAEC92006D75D2 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +145,7 @@
 		2B2BD2DB18CAEC92006D75D2 /* DoitDo */ = {
 			isa = PBXGroup;
 			children = (
+				2B254B6E18CB119B00CACA38 /* Data */,
 				2B2BD2E418CAEC92006D75D2 /* DDAppDelegate.h */,
 				2B2BD2E518CAEC92006D75D2 /* DDAppDelegate.m */,
 				2B2BD2E718CAEC92006D75D2 /* Main_iPhone.storyboard */,
@@ -270,6 +291,7 @@
 			files = (
 				2B2BD2E618CAEC92006D75D2 /* DDAppDelegate.m in Sources */,
 				2B2BD2EF18CAEC92006D75D2 /* DoitDo.xcdatamodeld in Sources */,
+				2B254B7218CB11E000CACA38 /* DDDo.m in Sources */,
 				2B2BD2F218CAEC92006D75D2 /* DDMasterViewController.m in Sources */,
 				2B2BD2E218CAEC92006D75D2 /* main.m in Sources */,
 				2B2BD2F518CAEC92006D75D2 /* DDDetailViewController.m in Sources */,
@@ -491,6 +513,7 @@
 				2B2BD31018CAEC92006D75D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B2BD31118CAEC92006D75D2 /* Build configuration list for PBXNativeTarget "DoitDoTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +522,7 @@
 				2B2BD31318CAEC92006D75D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
